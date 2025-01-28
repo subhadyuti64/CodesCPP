@@ -16,6 +16,19 @@ class Teacher
     }
 };     
 
+class student
+{
+    public:
+    string name;
+    string subject;
+    string department;
+    char grade;
+
+    void changeDept(string newDept)
+    {
+        department = newDept;
+    }
+};
 int main()
 {
     Teacher t1;
